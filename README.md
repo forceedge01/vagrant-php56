@@ -1,4 +1,4 @@
-# vagrant-php55
+# vagrant-php56
 Useful when working with older software requiring dependencies not available for your machine. Box used https://app.vagrantup.com/inviqa/boxes/centos-7-stack-php56/versions/1.2.0
 
 The intended use is for unit testing some packages, it has the following configuration: 
