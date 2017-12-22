@@ -26,7 +26,12 @@ This vagrant box will sync the directories outside of its own folder, this is do
 
 To get in the box, perform the usual vagrant ssh. Your project is synced in the /home/vagrant folder (usually home folder when you vagrant ssh in). If not refer to the Vagrantfile.
 
-Feel free to submodule this package into your project.
+This project also comes with an init.sh file, this will do a few things for you:
+
+- Setup ssh key on the vagrant box.
+- Create a file at the root of the project to ssh into the box.
+- Create a file at the root to run commands in the vagrant machine.
+- Create a file at the root to run unit tests on the vagrant machine.
 
 ## Ubuntu only:
 You may run into the trouble of signing some kernel modules. Error you may get is:
