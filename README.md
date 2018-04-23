@@ -1,16 +1,14 @@
 # vagrant-php56
-Useful when working with older software requiring dependencies not available for your machine. Box used https://app.vagrantup.com/inviqa/boxes/centos-7-stack-php56/versions/1.2.0
+Useful when working with older software requiring dependencies not available for your machine. Box used https://app.vagrantup.com/forceedge01/boxes/php56-behat
 
 The intended use is for unit testing some packages, it has the following configuration: 
 
+- Centos 7
+- httpd 2.4
 - PHP 5.6
 - Redis-cli 3.0.7
-
-at the time of writing. Almost every package uses composer which isn't bundled in at the moment, but I plan to. For now go with this one liner inside the VM:
-
-```
-curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
-```
+- Percona Server for MySQL 5.6
+- Composer
 
 ## Installation:
 
