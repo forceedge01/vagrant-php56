@@ -5,7 +5,12 @@ The intended use is for unit testing some packages, it has the following configu
 
 - Centos 7
 - httpd 2.4
+- Subversion
+- Git
 - PHP 5.6
+- PHP-PDO
+- PHP-DBLIB (mssql)
+- PHP-MYSQL
 - Redis-cli 3.0.7
 - Percona Server for MySQL 5.6
 - Composer
