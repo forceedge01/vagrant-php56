@@ -19,4 +19,4 @@ if [[ $? == 0 ]]; then
 	rm -rf box;
 fi
 
-echo 'You are now ready to run vagrant up'
+echo 'You are now ready to run vagrant up - you can delete virtualbox.box file in this folder if you wish to.'
