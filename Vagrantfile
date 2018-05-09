@@ -10,7 +10,6 @@ Vagrant.configure("2") do |config|
   config.ssh.insert_key = false
   config.ssh.forward_agent = true
   config.vm.provider "virtualbox" do |vb|
-    vb.gui = true
     vb.memory = "2048"
   end
 end
