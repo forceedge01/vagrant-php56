@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
   config.vm.box = "forceedge01/php56-behat"
-  config.vm.box_version = "0.2.2"
+  config.vm.box_version = "0.2.3"
   config.vm.synced_folder "../", "/vagrant"
   config.vm.network "private_network", type: "dhcp"
   config.ssh.username = "vagrant"

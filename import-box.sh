@@ -3,7 +3,7 @@
 # Download the box files.
 echo 'Downloading box'
 mkdir -p box
-wget -o box/php56-behat.box https://vagrantcloud.com/forceedge01/boxes/php56-behat/versions/0.2.1/providers/virtualbox.box --show-progress
+wget -o box/php56-behat.box https://vagrantcloud.com/forceedge01/boxes/php56-behat/versions/0.2.3/providers/virtualbox.box --show-progress
 
 if [[ $? != 0 ]]; then
 	echo 'Download unsuccessful';
