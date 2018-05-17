@@ -13,4 +13,5 @@ Vagrant.configure("2") do |config|
   config.vm.provider "virtualbox" do |vb|
     vb.memory = "2048"
   end
+  config.vm.provision "shell", inline: "yum install -y gcc kernel-devel; yum update -y kernel"
 end
